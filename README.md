@@ -1,1 +1,1 @@
-# 2do-semestre-actividades
+Estas son mis activiades del semestre, espero que sea de su agrado :-
