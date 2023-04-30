@@ -1,6 +1,10 @@
 git push orgin main ---- envia los cambios y agrega archivos a el repositorio
+git status ---- revisa los cambios del repositorio
 git pull ----- rescarga los cambios que no estan el los archivos locales y los descarga deel repositorio en linea
 git commit -m "" ----- hace un comentario al cambio que se hace
 git add . ------lo agrega a la carga de el repositorio
 git init ------ crear espacio de un repositorio a la computadora
 git clone link de el repocitorio ------ clonar el repositorio a la computadora
+
+id--- solo es una parte de un documneto que no se puede repetir
+class ---- todo lo sobre escrito en una clase se puede utilizar varias veces
