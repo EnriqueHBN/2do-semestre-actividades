@@ -1,4 +1,4 @@
-git push orgin main ---- envia los cambios y agrega archivos a el repositorio
+git push origin main ---- envia los cambios y agrega archivos a el repositorio
 git status ---- revisa los cambios del repositorio
 git pull ----- rescarga los cambios que no estan el los archivos locales y los descarga deel repositorio en linea
 git commit -m "" ----- hace un comentario al cambio que se hace
