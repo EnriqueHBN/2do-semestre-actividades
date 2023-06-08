@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .slider-container {
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slider {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      transition: transform 1s ease-in-out;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+      width: 100%;
+      height: 100%;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      var slider = document.querySelector('.slider');
+      var slides = document.querySelectorAll('.slide');
+      var currentSlide = 0;
+      var slideInterval = setInterval(nextSlide, 2000); // Cambiar slide cada 3 segundos (3000 milisegundos)
+
+      function nextSlide() {
+        slider.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+        currentSlide = (currentSlide + 1) % slides.length;
+      }
+    };
+  </script>
+</head>
+<body>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide">
+        <img src="imagenes/tacos1.jpeg" alt="Imagen 1">
+      </div>
+      <div class="slide">
+        <img src="imagenes/tacos2.jpeg" alt="Imagen 2">
+      </div>
+      <div class="slide">
+        <img src="imagenes/imagen3.jpeg" alt="Imagen 3">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
